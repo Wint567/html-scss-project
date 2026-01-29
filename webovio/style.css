@@ -99,16 +99,16 @@
   width: 100%;
   max-width: 1109px;
   margin: 0 auto;
-  margin-top: 244px;
   padding-bottom: 150px;
   border-bottom: 1px solid rgba(33, 56, 66, 0.0941176471);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 .whatWeDo_info {
   width: 100%;
   max-width: 475px;
+  margin-bottom: 34px;
 }
 .whatWeDo_info--subtitle {
   font-family: Poppins;
@@ -127,13 +127,16 @@
   color: #4D533C;
   margin-top: 29px;
   margin-bottom: 35px;
+  width: 400px;
 }
-.whatWeDo_info--titlespan {
+.whatWeDo_info--title span {
   background-color: rgba(255, 215, 35, 0.1019607843);
+  padding: 0 5px;
 }
 .whatWeDo_info--text {
   font-family: Poppins;
   font-weight: 400;
+  font-style: italic;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0px;
@@ -150,4 +153,83 @@
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   color: #D4D6D4;
+}
+.whatWeDo_person {
+  width: 100%;
+  max-width: 474px;
+  box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.1450980392);
+  background-color: #FFFFFF;
+  padding-top: 224px;
+  padding-left: 40px;
+  padding-right: 8px;
+  padding-bottom: 60px;
+}
+.whatWeDo_person--text {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #4D533C;
+  margin-bottom: 50px;
+}
+.whatWeDo_person--container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.whatWeDo_person--container img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 20px 25px 43px 0px rgba(0, 0, 0, 0.1803921569);
+}
+.whatWeDo_person--container--men--name {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #4D533C;
+  margin-bottom: 6px;
+}
+.whatWeDo_person--container--men--position {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #152934;
+}
+
+.coments {
+  padding-top: 150px;
+}
+.coments_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 133px;
+  margin-bottom: 104px;
+}
+.coments_container--title {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #4D533C;
+  width: 335px;
+}
+.coments_container--text {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: rgba(33, 56, 66, 0.6);
+  width: 518px;
 }/*# sourceMappingURL=style.css.map */
