@@ -1,0 +1,217 @@
+.footer {
+    position: relative;
+    padding-top: 172px;
+
+    &_baner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #FAFAFA;
+        width: 100%;
+        max-width: 1275px;
+        padding: 70px 164px 70px;
+        box-shadow: 50px 130px 100px 0px #00000025;
+
+        &--title {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 74px;
+            letter-spacing: 0px;
+            color: #4D533C;
+            margin-bottom: 50px;
+        }
+
+        &--link {
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-thickness: 0%;
+            color: #D4D6D4;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #FFD723;
+            }
+        }
+    }
+
+    &_info {
+        width: 100%;
+        padding-top: 310px;
+        background-image: url("./img/footer-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &--container {
+            width: 100%;
+            max-width: 1110px;
+            margin: 0 auto;
+
+            &--contacts {
+                width: 100%;
+                max-width: 452px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 52px;
+
+                &--box {
+                    &--title {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 40px;
+                        letter-spacing: 0px;
+                        color: #B6C197;
+                        margin-bottom: 8px;
+                    }
+
+                    &--item {
+                        font-family: Poppins;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 40px;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &--links {
+                width: 100%;
+                border-top: 1px solid #5D6544;
+                padding-top: 60px;
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 60px;
+
+                &--for {
+                    width: 100%;
+                    max-width: 677px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    &--box {
+                        width: 100%;
+                        max-width: 167px;
+                        list-style: none;
+
+                        &--title {
+                            font-family: Poppins;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 38px;
+                            letter-spacing: 0px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            margin-bottom: 21px;
+                        }
+
+                        &--li {
+                            font-family: Poppins;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 40px;
+                            letter-spacing: 0px;
+                            color: #B6C197;
+                            cursor: pointer;
+                            transition: color 0.3s ease;
+
+                            &:hover {
+                                color: #FFD723;
+                            }
+                        }
+                    }
+                }
+
+                &--line {
+                    background-color: #5D6544;
+                    height: 210px;
+                    width: 1px;
+                }
+
+                &--contacts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 23px;
+
+                    &--title {
+                        font-family: Poppins;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 38px;
+                        letter-spacing: 0px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+
+                    &--text {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        color: #B6C197;
+                        width: 270px;
+                    }
+
+                    &--email {
+                        font-family: Poppins;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 38px;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                    }
+
+                    &--socials {
+                        width: 100%;
+                        max-width: 171px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        &--link {
+                            background-color: #444A34;
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            transition: background-color 0.3s ease;
+
+                            &:hover {
+                                background-color: #FFD723;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &--bottom {
+                width: 100%;
+                border-top: 1px solid #5D6544;
+                padding-top: 25px;
+                padding-bottom: 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &--text {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 0px;
+                    color: #B5C096;
+                }
+            }
+        }
+    }
+}

@@ -2,8 +2,8 @@
     background-image: url("./img/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     padding-bottom: 210px;
+    position: relative;
 
     &_top {
         width: 100%;
@@ -63,7 +63,12 @@
             text-decoration: underline;
             text-decoration-style: solid;
             text-decoration-thickness: 0%;
-            color: $yellow;
+            color: #D4D6D4;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #FFD723;
+            }
         }
     }
 
